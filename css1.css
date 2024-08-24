@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    height: 100vh;
+    
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #ff6600;
+}
+
+.buy-now {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.buy-now:hover {
+    background-color: #e65c00;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.search button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+.search button:hover {
+    background-color: #f0f0f0;
+}
+.header{
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: #333;
+    font-size: 80px;
+    padding: 30px;
+    margin-right: 20px;
+    text-decoration:solid;
+    text-shadow: #333;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.para{
+    color: #ffffff;
+    text-shadow:   
+    -1px -1px 0px black,  
+     1px -1px 0px black,  
+    -1px  1px 0px black,  
+     1px  1px 0px black;
+     font-size: 50px;
+     padding: 30px;
+     margin: 0px;
+}
+
+.image{
+    padding-top: 90px;
+    justify-content: end;
+    align-content: end;
+    text-align: end;
+
+}
+.heading{
+    display: flex;
+  
+    
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+.text-content {
+    text-align: left;
+    
+}
+
+
+.image-content{
+    height: auto;
+    margin-right: -50px;
+    margin-top: 60px;
+    text-align: end;
+   
+}
+
+.text1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px auto;
+    margin-top: 150px;
+    text-transform: capitalize;
+    font-family: fantasy;
+}
+
+.pad{
+    padding: 20px;
+    white-space: 2;
+    text-decoration: double;
+}
+
+.headee{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+.para{
+    text-shadow: #333;
+    text-decoration: line-through;
+    margin-top: -10px;
+    font-size: 50px;
+
+}
+.image-content:hover{
+    transition: 0.4s;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: left;
+    margin-top: 180px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-about, .footer-links, .footer-contact {
+    width: 30%;
+}
+
+.footer-about h3, .footer-links h3, .footer-contact h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-about p, .footer-contact p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-contact a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #ccc;
+}
